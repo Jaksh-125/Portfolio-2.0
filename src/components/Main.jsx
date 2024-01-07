@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import Intro from "./Intro";
 import ShowcaseProject from "./ShowcaseProject";
+import ShowcaseInternship from "./ShowcaseInternship";
+
 
 const Main = () => {
     useEffect(() => {
@@ -11,6 +13,7 @@ const Main = () => {
         <main>
             <Intro />
             <ShowcaseProject />
+            <ShowcaseInternship />
         </main>
     );
 };

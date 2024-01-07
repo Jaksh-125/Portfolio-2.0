@@ -5,6 +5,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Main from "./components/Main";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
+import Internships from "./components/Internships";
 import ErrorPage from "./components/ErrorPage";
 
 const appRouter = createBrowserRouter([
@@ -24,6 +25,10 @@ const appRouter = createBrowserRouter([
             {
                 path: "/projects",
                 element: <Projects />,
+            },
+            {
+                path: "/internships",
+                element: <Internships />,
             },
         ],
     },

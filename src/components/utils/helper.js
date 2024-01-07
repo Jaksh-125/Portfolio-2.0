@@ -8,6 +8,10 @@ export const links = [
     path: "/projects",
   },
   {
+    linkName: "Internships",
+    path: "/internships",
+  },
+  {
     linkName: "About me",
     path: "/about",
   },
@@ -241,6 +245,41 @@ export const quotes = [
 ];
 
 export const allProjects = [
+  {
+    name: "Car Showroom Management",
+    image: null,
+    description:
+      "Car showroom Management system is for keeping the records of cars and features of cars for almost all company. It helps to show the cars information over the web. Through this system if any enquiry occurs than that corresponding entries are automatically shown in an admin section because database management system gives facility of having relationship between the tables. ",
+    github: "https://github.com/Jaksh-125",
+    techstack: ["PHP", "Bootstrap", "MySQL"],
+  },
+  {
+    name: "Intelligent Video Surveillance",
+    image: null,
+    description:
+      "Intelligent video surveillance, using algorithms like YOLO, works by analyzing real-time video feeds from cameras. YOLO is an efficient object detection algorithm that quickly identifies objects in the video stream, such as people, vehicles, and other items of interest. The COCO dataset, on the other hand, is a large collection of images that serves as a benchmark for training and evaluating the performance. ensuring their accuracy and effectiveness in real-world scenarios.",
+    github: "https://github.com/Jaksh-125",
+    techstack: ["Python", "Web Technologies", "YOLO alogo", "COCO Dataset"],
+  },
+  {
+    name: "LuxeHive",
+    image: null,
+    description:
+      "A Eshop is a ecommerce website for purchasing clothes online., We are proud that our website is fully of responsive and admin anduser can see the products online and get offers on every festival.,Eshop is a ecommerce website which provide many functionalities and all the payment activites like card payment, upi, offers on festival many functionalities are included.",
+    github: "https://github.com/Jaksh-125",
+    techstack: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Tailwindcss",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
+  },
+];
+
+export const allInternships = [
   {
     name: "Car Showroom Management",
     image: null,
