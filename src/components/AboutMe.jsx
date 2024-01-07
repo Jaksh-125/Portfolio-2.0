@@ -57,7 +57,7 @@ const AboutMe = () => {
           >
             <p className="font-medium">Jaksh Patel</p>
             <p className="text-sm text-clr-light-2">
-              A <span className="font-medium">Full stack developer</span> based
+              A <span className="font-medium">Cloud Developer</span> based
               in <span className="font-medium"> India </span>
             </p>
           </h1>
