@@ -285,7 +285,7 @@ export const allInternships = [
     image: null,
     description:
       "Interned at BWS, gaining hands-on experience in HTML5, CSS3, and JavaScript for web development tasks. Successfully completed diverse assignments during internship, showcasing proficiency in HTML5, CSS3, and JavaScript. Applied HTML5, CSS3, and JavaScript skills to contribute effectively to tasks and projects as an intern at BWS",
-    github: "",
+    github: "https://github.com/Jaksh-125/Portfolio-2.0/blob/main/src/components/assests/imgs/BWS.jpeg",
     techstack: ["HTML", "CSS", "JavaScript"],
   },
   {
@@ -293,7 +293,7 @@ export const allInternships = [
     image: null,
     description:
       "Contributed to the development of a responsive e-commerce book store frontend using ReactJS during internship. Collaborated with team to enhance user interface and user experience of company client's website. Gained practical experience in building interactive web applications while working on real-world project.",
-    github: "",
+    github: "https://github.com/Jaksh-125/Portfolio-2.0/blob/main/src/components/assests/imgs/Tatva.jpg",
     techstack: ["ReactJs", "Web Technologies", "API's", "Soft Skills"],
   },
   {
@@ -301,7 +301,7 @@ export const allInternships = [
     image: null,
     description:
       "Achieved NPTEL Certificate in Python for Data Science, showcasing proficiency in data manipulation and analysis using Python programming",
-    github: "",
+    github: "https://github.com/Jaksh-125/Portfolio-2.0/blob/main/src/components/assests/imgs/NPTEL.jpeg",
     techstack: [
       "Python",
     ],

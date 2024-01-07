@@ -21,7 +21,7 @@ const Intro = () => {
                         data-aos-delay='700'
                     >
                         <h2 className='capitalize text-clr-light font-medium mt-3'>
-                            Full stack developer
+                            Cloud developer
                         </h2>
                     </header>
                 </div>
