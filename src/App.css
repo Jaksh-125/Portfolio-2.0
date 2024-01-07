@@ -1,0 +1,87 @@
+/* Google font poppines */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap");
+
+/* CSS RESET */
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+*::selection {
+    background-color: #ccc;
+}
+
+:root {
+    --bg-clr-1: #fff;
+    --text-clr-1: #222;
+    --text-clr-2: #4f4f4f;
+    --text-shadow: 0 0 0 rgb(48, 48, 48);
+}
+
+html {
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+}
+
+.bg-clr-1 {
+    background-color: var(--bg-clr-1);
+}
+
+.text-clr-1 {
+    color: var(--text-clr-1);
+}
+
+.text-clr-2 {
+    color: var(--text-clr-2);
+}
+
+.text-clr-light {
+    color: #ccc;
+}
+
+.text-clr-light-2 {
+    color: #606060;
+}
+
+/* Link hover */
+.linkHover {
+    background-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        transparent 90%,
+        #222 90%,
+        #303030 100%
+    );
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 350ms;
+    padding-bottom: 3px;
+    height: 1px !important;
+    line-height: 1px !important;
+}
+
+.linkHover:hover {
+    background-size: 100% 100%;
+    background-position-x: left;
+    height: 1px !important;
+    line-height: 1px !important;
+}
+
+.font-quote {
+    font-family: "Dancing Script", serif;
+}
+
+/* tailwindcss */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
